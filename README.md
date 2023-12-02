@@ -7,6 +7,24 @@ Your team at Dane Street, a prominent investment firm, has been tasked with pred
 
 Your team has identified a stock that seems to performing well and you clients want to know more before they commit their millions to your call. Thus your task is two-fold. First, you need to predict the close prices of the stock in question. Further, you need to suggest the best strategy for your client on any given day. There are three options your clients have. They can either Buy, Hold or Sell the stock. Your team needs to suggest the best decision.
 
+## Dataset Description
+The dataset `train.csv` consists of weekly stock price data from June 1, 2015 to Feb 22, 2021. It contains the Open price, Close price, Volume and Strategy of all the stocks traded in that time interval. Your objective is to predict the Close price and Strategy of stocks on the `test.csv` sample.
+
+## Files
+`train.csv` - the training set for the model
+`test.csv` - the test set on which performance will be judged
+
+## Data Dictionary
+
+- **Date** - Date in date time format
+- **Open** - Open price of the stock for that week
+- **Close** - Close price of the stock for that week
+- **Volume** - The number of shares of that stock traded that week
+etc.
+
+
+
+
 ## Evaluation Metrics
 
 ### Close Price Prediction (SMAPE)

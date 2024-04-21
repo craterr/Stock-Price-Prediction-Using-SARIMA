@@ -1,5 +1,4 @@
 # Dane Street Investment Firm - Stock Market Prediction Challenge
-## (Kaggle Competition)
 
 ## Task Overview
 
